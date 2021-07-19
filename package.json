@@ -1,0 +1,73 @@
+{
+  "_from": "zbar-angular.wasm",
+  "_id": "zbar-angular.wasm@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-kpdc9S4rSO9fxtuShJQMNFYDcT+sA399oXBoWfPtUvfl1ytxrVs/2aklfrBsxmFPcvrFejLb3ZlwrubTNb17xg==",
+  "_location": "/zbar-angular.wasm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zbar-angular.wasm",
+    "name": "zbar-angular.wasm",
+    "escapedName": "zbar-angular.wasm",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/zbar-angular.wasm/-/zbar-angular.wasm-1.0.0.tgz",
+  "_shasum": "0e6c954c92e8bc5fba67892600544ba8c3126b85",
+  "_spec": "zbar-angular.wasm",
+  "_where": "D:\\Node_Prj\\Albert_Main\\AlbertWebFrontEnd\\angular-webcomponents",
+  "author": {
+    "name": "thirupathiraj.v@optisolbusiness.com"
+  },
+  "browser": {
+    "./dist/load.js": "./dist/load-browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/thiruopti/zbar-angular.wasm/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A wasm build of C/C++ Zbar barcode scanning library.",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.9",
+    "canvas": "^2.6.1",
+    "jest": "^26.0.1",
+    "jest-environment-node": "^26.0.1",
+    "prettier": "^1.13.2",
+    "typescript": "^3.9.3"
+  },
+  "homepage": "https://github.com/thiruopti/zbar-angular.wasm#readme",
+  "jest": {
+    "testMatch": [
+      "**/?(*.)+(spec|test).[j]s?(x)"
+    ],
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "zbar",
+    "qrcode",
+    "scanner"
+  ],
+  "license": "LGPL-2.1",
+  "main": "dist/index.js",
+  "name": "zbar.wasm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiruopti/zbar-angular.wasm.git"
+  },
+  "scripts": {
+    "build": "make",
+    "format": "git diff --cached --name-only --diff-filter=ACMR \"*.ts\" \"*.js\" | sed 's| |\\ |g' | xargs prettier --write",
+    "test": "jest --coverage"
+  },
+  "version": "1.0.0"
+}
