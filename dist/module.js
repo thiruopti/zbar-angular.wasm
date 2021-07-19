@@ -12,6 +12,7 @@ const scanImage = async (image, scanner) => {
     if (scanner === undefined) {
         scanner = await defaultScannerPromise;
     }
+    // To enable only code 128 barcode types
     scanner.setConfig(enum_1.ZBarSymbolType.ZBAR_NONE, enum_1.ZBarConfigType.ZBAR_CFG_ENABLE, 0);
     scanner.setConfig(enum_1.ZBarSymbolType.ZBAR_CODE128, enum_1.ZBarConfigType.ZBAR_CFG_ENABLE, 1);
     const res = scanner.scan(image);
